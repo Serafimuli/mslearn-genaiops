@@ -439,7 +439,7 @@ def main() -> None:
             f"  - If you just ran azd up, wait 1-2 minutes for role propagation and retry once\n"
         )
         print(error_message)
-        # Write the error to the results file so it's never left empty
+        # Write the error to the results file so it is never left empty
         RESULTS_FILE.write_text(error_message, encoding="utf-8")
         sys.exit(1)
 
