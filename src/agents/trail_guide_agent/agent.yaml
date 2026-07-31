@@ -1,3 +1,4 @@
 name: trail-guide-v1
+# Workflow trigger marker for PR-based cloud evaluation.
 model: gpt-5.1
 instructions_file: prompts/v2_instructions.txt
