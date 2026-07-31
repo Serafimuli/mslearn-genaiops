@@ -5,7 +5,7 @@ from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
 from azure.ai.projects.models import PromptAgentDefinition
 
-# Load environment variables from .env file
+# Load environment variables from .env file (like crazy)
 load_dotenv()
 
 # Read instructions from prompt file
